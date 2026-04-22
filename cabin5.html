@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cabin 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <header>
+                <h1>Cabin 5</h1>
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="cabin1.html">Cabin 1</a>
+                        <a href="cabin2.html">Cabin 2</a>
+                        <a href="cabin3.html">Cabin 3</a>
+                        <a href="cabin4.html">Cabin 4</a>
+                        <a href="cabin5.html">Cabin 5</a>
+                        <a href="whattodo.html">Things To Do</a>
+                        <a href="contact.html">Contact Us</a>
+                    </nav>
+            </header>
+            
+            <div class="cabin-info">
+
+                <div class="cabin-gallery">
+                    <h2>Photo Gallery</h2>
+
+                        <div class="slideshow">
+
+                            <button class="prev" onclick="changeSlide(-1)">❮</button>
+
+                            <img class="slide active" src="cabin5ext.jpg" />
+                            <img class="slide" src="cabin5.1.jpg" />
+                            <img class="slide" src="cabin5.2.jpg" />
+                            <img class="slide" src="cabin5.3.jpg" />
+                            <img class="slide" src="cabin5.4.jpg" />
+                            <img class="slide" src="cabin5.5.jpg" />
+                            <img class="slide" src="cabin5.6.jpg" />
+                            <img class="slide" src="cabin5.7.jpg" />
+                            <img class="slide" src="cabin5.8.jpg" />
+                            <img class="slide" src="cabin5.jpg" />
+
+                            <button class="next" onclick="changeSlide(1)">❯</button>
+                        </div>
+                </div>
+
+                <div class="cabin-text">
+
+                    <p>Our most popular cabin has 2 bedrooms with a full size bed in each room. There is a full kitchen, bathroom and living room. Cabin 5 is located right on the rock cliff of Lake Superior and has a the best view of the lake.</p>
+                    <p><strong>Sleeps: 4</strong></p>
+                </div>
+            </div>
+
+             <div class="booking-section">
+            
+                <div class="calendar">
+                    <h2>Availability</h2>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FChicago&showPrint=0&title=Cabin%205%20Availability&src=ZmQ3NjFkMGMwYTU2MWE2YWQ2YTBlY2M5ZjIwMjJlNmYzMzMwYzMwYzZiM2YyMmJlOGQ1ODM3YzBkZWFlYjAxYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23e67c73" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="booking-form">
+                    <h2>Book This Cabin</h2>
+                        <form>
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="date" required>
+                            <input type="date" required>
+                            <select>
+                                <option>1 Guest</option>
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>5 Guests</option>
+                                <option>6 Guests</option>
+                            </select>
+                            <button type="submit">Request Booking</button>
+                        </form>
+                </div>
+            </div>
+            <script src="script.js" defer></script>
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2026 Larsen's Lakeview Cabins</p>
+                </div>
+            </footer>
+        </body>
+</html>
