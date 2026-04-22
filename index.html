@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Larsen's Lakeview Cabins</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            <header>
+                <h1>Larsen's Lakeview Cabins</h1>
+
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="cabin1.html">Cabin 1</a>
+                    <a href="cabin2.html">Cabin 2</a>
+                    <a href="cabin3.html">Cabin 3</a>
+                    <a href="cabin4.html">Cabin 4</a>
+                    <a href="cabin5.html">Cabin 5</a>
+                    <a href="whattodo.html">Things To Do</a>
+                    <a href="contact.html">Contact Us</a>
+                </nav>
+            </header>
+
+            <div class="container">
+
+                <h2>Welcome to Larsen's Lakeview Cabins!</h2>
+
+                <div class="home-section">
+
+                    <img src="photo.jpg" alt="View of Cabins from the Water" class="home-img">
+
+                    <div class="home-text">
+                        <p>Our cabins are located 2 miles northeast of Grand Marais on the shore of beautiful Lake Superior. Our cabins are seasonal and are available from May - October. Every cabin has a spectacular view of Lake Superior and offer a cozy retreat while visiting the North Shore. They are completely furnished and have kitchens, showers and microwaves. Each cabin also has a picnic table, grill, and firepit to enjoy during your stay.</p>
+
+                        <p>There are many activities close by. Try fishing, hunting, shopping, hiking & biking trails, golfing, sightseeing and many others!</p>
+
+                        <p>Lawrence Larsen built the Lakeview Cabins in 1932. He was a commerical fisherman for many years. His fish house and winch house still stands today!</p>
+
+                        <p>We hope that our site will increase our effectiveness in meeting new customers and responding to existing ones. Included is information on our accommodations and location, with pictures and descriptions.</p>
+
+                        <p>Don't hesitate to reach out, customer satisfaction is extremely important to us!</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                    <span onclick="closePopup()" style="cursor:pointer;">&times;</span>
+                    <h2>How did you hear about us?</h2>
+
+                    <form id="surveyForm">
+                        <label><input type="radio" name="source" value="Google"> Google</label><br>
+                        <label><input type="radio" name="source" value="Social Media"> Social Media</label><br>
+                        <label><input type="radio" name="source" value="Friend/Family"> Friend/Family</label><br>
+                        <label><input type="radio" name="source" value="Other" onclick="showOtherInput()"> Other</label>
+
+                        <div id="otherInput" style="display:none;">
+                            <input type="text" placeholder="Please specify...">
+                        </div>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <script src="script.js" defer></script>
+
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2026 Larsen's Lakeview Cabins</p>
+                </div>
+            </footer>
+        </body>
+</html>

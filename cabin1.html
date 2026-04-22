@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cabin 1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+        <body>
+            <header>
+                <h1>Cabin 1</h1>
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="cabin1.html">Cabin 1</a>
+                        <a href="cabin2.html">Cabin 2</a>
+                        <a href="cabin3.html">Cabin 3</a>
+                        <a href="cabin4.html">Cabin 4</a>
+                        <a href="cabin5.html">Cabin 5</a>
+                        <a href="whattodo.html">Things To Do</a>
+                        <a href="contact.html">Contact Us</a>
+                    </nav>
+            </header>
+
+            <div class="cabin-info">
+
+                <div class="cabin-gallery">
+                    <h2>Photo Gallery</h2>
+
+                        <div class="slideshow">
+
+                            <button class="prev" onclick="changeSlide(-1)">❮</button>  
+
+                            <img class="slide active" src="cabin1.jpg" />
+                            <img class="slide" src="cabin1.1.jpg" />
+                            <img class="slide" src="cabin1.2.jpg" />
+                            <img class="slide" src="cabin1.3.jpg" />
+                            <img class="slide" src="cabin1.4.jpg" />
+                            <img class="slide" src="cabin1.5.jpg" />
+                            <img class="slide" src="cabin1.6.jpg" />
+                            <img class="slide" src="cabin1.7.jpg" />
+                            <img class="slide" src="cabin1.8.jpg" />
+
+                            <button class="next" onclick="changeSlide(1)">❯</button>
+                        </div>
+                </div>
+
+                <div class="cabin-text">
+                    <p>This 2 bedroom cabin has a full size bed and twin in one room and another full size bed in the other. There is a full kitchen, bathroom and living room.</p>
+                    <p><strong>Sleeps: 5</strong></p>
+                </div>
+            </div>
+            <div class="booking-section">
+            
+                <div class="calendar">
+                    <h2>Availability</h2>
+                    <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FChicago&showPrint=0&title=Cabin%201%20Availability&src=MzMwZTNlMzg5NjdjNGViYTExN2QwNjgyZTg3MWZiN2UzN2IxOTc4NThlZGQ3MzUxNGIzMGViMzQ1ODY1ZjU5MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23d50000" style="border:solid 1px #777" width="500" height="400" frameborder="0" scrolling="no"></iframe>
+                </div>
+
+                <div class="booking-form">
+                    <h2>Book This Cabin</h2>
+                        <form>
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="date" required>
+                            <input type="date" required>
+                            <select>
+                                <option>1 Guest</option>
+                                <option>2 Guests</option>
+                                <option>3 Guests</option>
+                                <option>4 Guests</option>
+                                <option>5 Guests</option>
+                                <option>6 Guests</option>
+                            </select>
+                            <button type="submit">Request Booking</button>
+                        </form>
+                </div>
+            </div>
+            <script src="script.js" defer></script>
+            <footer>
+                <div class="footer-content">
+                    <p>&copy; 2026 Larsen's Lakeview Cabins</p>
+                </div>
+            </footer>
+        </body>
+</html>
